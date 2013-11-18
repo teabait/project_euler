@@ -11,3 +11,5 @@ def calculate(min, max, num1, num2)
 
   multiples.inject{|sum,x| sum + x }
 end
+
+calculate(1, 1000, 3, 5)
